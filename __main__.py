@@ -2,7 +2,8 @@ from classes import Ti
 
 print("*** Hola Azzrael Code YouTube subs!!! ***")
 
-ti = Ti()
+ti = Ti(use_sandbox=True)
+
 print(ti.create_sandbox())
 # print(ti.get_sync_client().get_accounts())
 # print(ti.get_sync_client().get_portfolio_currencies())
